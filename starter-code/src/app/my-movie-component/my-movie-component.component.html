@@ -8,7 +8,18 @@
       <img [src]="movie.poster">
     </div>
     <div class="col-7">
-      <b>Genres</b> {{movie.genres}}
+      <b>Genres</b>
+      <ul>
+        <li>{{movie.genres}}</li>
+      </ul>
+      <p><b>Year</b><span>{{movie.year}}</span></p>
+      <p><b>Director</b><span>{{movie.director}}</span></p>
+      <p><b>Actors</b>
+      <span>{{movie.actors}}</span></p>
+      <p><b>Schedule</b>
+      <span>{{movie.hours}}</span></p>
+      <p><b>Synopsis</b></p>
+      <p>{{movie.synopsis}}</p>
     </div>
   </div>
   <div class="row">
