@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <p>ROOM {{movie.room}} - {{movie.title}}</p>
+  </div>
+  
+  <div class="row">
+    <div class="col-5">
+      <img [src]="movie.poster">
+    </div>
+    <div class="col-7">
+      <b>Genres</b> {{movie.genres}}
+    </div>
+  </div>
+  <div class="row">
+    <a type="button" class="btn" [routerLink]="['/home']">Home</a>
+  </div>
+</div>
+
